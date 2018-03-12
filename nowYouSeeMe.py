@@ -22,7 +22,7 @@ class Colors:
 
 
 print(Colors.Cyan + "                                             `:+ss/-`                                           ")
-print("                                          ./osssssssso:.")
+print("                                          ./osssssssso:.               ")
 print("                                      `-+ssssssssssssssss+-`")
 print("                                   .:+ssssssso+:..:+ooossssso/-`")
 print("                               `-/oosoooooo/-`      `-/+oooooooo+:.")
