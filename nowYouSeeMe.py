@@ -1,7 +1,27 @@
 import socket
 
+class Colors:
+    PINK = '\033[90.5m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[90.5m'
+    ENDC = '\033[0m'
+    BOLD = '\033[0.5m'
+    UNDERLINE = '\033[4m'
+    Red = '\033[91m'
+    Green = '\033[92m'
+    Blue = '\033[94m'
+    Cyan = '\033[96m'
+    White = '\033[97m'
+    Yellow = '\033[93m'
+    Magenta = '\033[95m'
+    Grey = '\033[90m'
+    Black = '\033[90m'
+    Default = '\033[99m'
 
-print("                                             `:+ss/-`                                               ")
+
+print(Colors.Cyan + "                                             `:+ss/-`                                           ")
 print("                                          ./osssssssso:.")
 print("                                      `-+ssssssssssssssss+-`")
 print("                                   .:+ssssssso+:..:+ooossssso/-`")
@@ -53,13 +73,11 @@ print("                                              `-//.`     ")
 def is_connected(url):
     try:
         socket.create_connection((url, 80))
-        print("ok")
-        return True
+        print(Colors.OKGREEN + "Everything looks good with " + url)
+
     except OSError:
         pass
-        print("not ok")
-    return False
+        print(Colors.Red + "Something's wrong with " + url)
 
 
-is_connected("goosdvgle.com"))
-
+is_connected(input(Colors.OKBLUE + "Enter an URL:"))
