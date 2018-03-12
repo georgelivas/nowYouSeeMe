@@ -1,10 +1,17 @@
-from urllib.request import urlopen
+import socket
 
-def internet_on():
+
+
+
+
+def is_connected(url):
     try:
-        page = urlopen('http://216.58.192.142', timeout=1)
+        socket.create_connection((url, 80))
         return True
-    except page.URLError as err:
-        return False
+    except OSError:
+        pass
+    return False
 
-    
+
+print(is_connected("google.com"))
+
