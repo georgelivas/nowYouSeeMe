@@ -70,7 +70,7 @@ print("                                           .:+syyyys+:`")
 print("                                              `-//.`     ")
 
 
-def is_connected(url):
+def can_you_see(url):
     try:
         socket.create_connection((url, 80))
         print(Colors.OKGREEN + "Everything looks good with " + url)
@@ -80,4 +80,4 @@ def is_connected(url):
         print(Colors.Red + "Something's wrong with " + url)
 
 
-is_connected(input(Colors.OKBLUE + "Enter an URL:"))
+can_you_see(input(Colors.OKBLUE + "Enter an URL:"))
