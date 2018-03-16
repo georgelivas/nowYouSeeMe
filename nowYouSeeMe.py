@@ -1,5 +1,6 @@
 import socket
 
+
 class Colors:
     PINK = '\033[90.5m'
     OKBLUE = '\033[94m'
@@ -21,53 +22,43 @@ class Colors:
     Default = '\033[99m'
 
 
-print(Colors.Cyan + "                                             `:+ss/-`                                           ")
-print("                                          ./osssssssso:.               ")
-print("                                      `-+ssssssssssssssss+-`")
-print("                                   .:+ssssssso+:..:+ooossssso/-`")
-print("                               `-/oosoooooo/-`      `-/+oooooooo+:.")
-print("                            .:+oooooooo+:.              .-/ooooooooo/-`")
-print("                        `-/oooooooo+/-`                    `.:+oooooooo+:.`")
-print("                     .:+oooooooo+:.`                           `-:+oooooooo+:.")
-print("                `-/oosooooo+/-`                                   .-/+ooooosoo/-`")
-print("              .:+osssoooo+:.`                                         `.:+oooosssso/-`")
-print("          `./ossssssoo/:.                                                 `-/+oossssss+:.")
-print("        .+ssyssssso/-`                          `````                        `.:+osssssyso/`")
-print("        -yyysss+:.`                  `..-:/++ooooooooooo++/:-..`                 `-/osssyyy.")
-print("        -yysss.                 `.:/oosssssssssssssssssssssssssoo/:.`               `-sssyy.")
-print("        -yssss`             `.:+osssssssoo+//::-------:://+oossssssso+:.`            .ssssy.")
-print("        -sssss`          `-/osssssso+:-```  ``........``   ```-:+ossssso+/-`         .sssss.")
-print("        -sssso`        ./+osssso/-`` `..://+++++++oo+++++/:.`    ``-/+sssoo+/.       .ossss.")
-print("        -sssoo`     `-+oooso+:.` `.:++ooooo++++++++++++++ooo+/-`     ``:+ooooo/-`    .oosss.")
-print("        -sssoo`   `-+oooo+:`  .:+oooooooo++++/:-.....--:/++oooo+-`       `:+ooo+/-`  .oosss.")
-print("        -ssooo`  -/+ooo+-` `:+ssssooooo+++:.`            `-/+oooo+.        `-/oo++/- .oooss.")
-print("        -ssooo`./+++o/.  ./oyssssooooo++:`                  ./ooooo:          ./++++/:oooss.")
-print("        -ssooo:+++++-  .+ssssso+-+ooo+/.         Now          -+oooo:           -+++++oooss.")
-print("        -sooooo+++:` ./osssso:` :oooo+`                        .oooss.           `:++ooooss.")
-print("        -sooooo++- `/ooosso:`  `ooooo.           You            :ooss+          `:--+ooooss.")
-print("        -sooooo+. -+ooooo-`    -sooo+                           .oosss         -+++--+oooss.")
-print("        -ssooo+. .++oooo.      -sooo/            See            `oosss`      ./o++++.-oooss.")
-print("        -ssooo-   -+ooooo:`    -ssoo+                           .ossss     `:ooo++/. .oooss.")
-print("        -ssooo`    `:+oooso:`   ossoo-            Me            /ssss/   ./oooo++-`  .oooss.")
-print("        -sssoo`      ./ooosss/.`-sssoo.                        :sssss``-+ooooo+:`    .oosss.")
-print("        -sssoo`        ./oosssso/:/+ooo-                     `/sso+/:/ossooo+:`      .ossss.")
-print("        -sssso`          `:+ossssso/::/+/.`                `-++/:/+ossssoo+-`        .ossss.")
-print("        -sssss`             ./osssssss+//:-`             `.-:/+osssssso+:.           .sssss.")
-print("        -yssss`               `.:ossssssssso++//:::::///+oosssssssso+:.              .ssssy.")
-print("        -yysss/.`                 `-/+osssssssssssssssssssssssso+:.`               `-/sssyy.")
-print("        -syysssso/-`                  `.-:/+oosssssssssooo+/-.`                `.:+ossssyys.")
-print("         -/ossssssso/:`                       `````````                     `-/+ossssssso:.")
-print("            .:+sssssooo+:.`                                             `.:/oooosssso/-`")
-print("               `-/osssoooo+/-`                                       `-/+ooooosso+:.")
-print("                   .:+osoooooo+:.                                `.:+oooooooo+:.`")
-print("                      `-/oooooooo+/-`                         .:/+oooooooo/-`")
-print("                          .:+oooooooo/:.                  `-/+oooooooo/-.")
-print("                             `-/oooooooo+/-`          `-:+oooooooo+:.")
-print("                                 .:+ossooooo+:.    .:+ooooooooo/-`")
-print("                                    `-+ossssssso//ossssssss+:.")
-print("                                        ./osssssssssssso/-")
-print("                                           .:+syyyys+:`")
-print("                                              `-//.`     ")
+print(Colors.Cyan + "                            .-`")
+print("                             `-/sssso/.")
+print("                          .:+ssso+/+ssso+:.")
+print("                      `.:oooo+:.`   `-/+oooo/-`")
+print("                   `-/oooo/-`           `-/+ooo+:.")
+print("                .:+ooo+:-`                 `.:/oooo/-.")
+print("            `-/osso+:.                         `-/+osoo/-`")
+print("          :ossso/-`            ```...```          `.:+osss+-")
+print("          oss+.`        `.-:+oooossssssoo+/:.`        `-+syo")
+print("          oss:       .-+osso+/::-------:/+osso+/.`      /sso")
+print("          oss:    `-+oso/-..--:///+++//:.```.:+oo+/.    :ss+")
+print("          oso:  `:+o+:..-/+ooo++//::://+o+/.   `-/oo/-  :os+")
+print("          oso:`-+o+-`-+osooo+/-``     ``-/oo/`    `:++/.:os+")
+print("          ooo//++-`:osso/oo+-`           `:oo+`     `:+++oo+")
+print("          oooo+:`-+ss+-`/oo:               :os/      `:+ooo+")
+print("          oooo:`/oo+.   ooo`               `oss     -++-+oo+")
+print("          oso/ `/oo+.   ooo`               `oss   ./o+/`:os+")
+print("          oso:   -+os+-`/so/               /ss/`-+oo+-  :os+")
+print("          oso:    `-+oso+/+o:`           `/oo+/oso+-`   :ss+")
+print("          oss:       ./osso++/.``     ``-/+oosso/.      :ss+")
+print("          oss/`        `.:ossssoo+++++oossso+:.`       `/sso")
+print("          +ssso/-`         `.-:/++ooo++/:-.`        `-/osss+")
+print("           .:+ssso/-`                           `.:+osso+-.")
+print("              `-/oooo+:.`                    `-/oooo+:.")
+print("                  .:+ooo+/-`             `-:+ooo+/-`")
+print("                     `-/oooo+:.       .:+oooo/-`")
+print("                         .:+osoo/-.:/oooo+:.")
+print("                            `-+sssssso/-`")
+print("                               `-/+:.      ")
+
+
+print("\n\n _   _                __   __            _____            ___  ___    ")
+print("| \ | |               \ \ / /           /  ___|           |  \/  |     ")
+print("|  \| | _____      __  \ V /___  _   _  \ `--.  ___  ___  | .  . | ___ ")
+print("| . ` |/ _ \ \ /\ / /   \ // _ \| | | |  `--. \/ _ \/ _ \ | |\/| |/ _ \\")
+print("| |\  | (_) \ V  V /    | | (_) | |_| | /\__/ /  __/  __/ | |  | |  __/")
+print("\_| \_/\___/ \_/\_/     \_/\___/ \__,_| \____/ \___|\___| \_|  |_/\___|\n\n\n")
 
 
 def can_you_see(url):
@@ -80,4 +71,8 @@ def can_you_see(url):
         print(Colors.Red + "Something's wrong with " + url)
 
 
-can_you_see(input(Colors.OKBLUE + "Enter an URL:"))
+run = 'y'
+
+while run == 'y':
+    can_you_see(input(Colors.OKBLUE + "Enter a URL:"))
+    run = input(Colors.Magenta + "wanna go again? [y/n]")
